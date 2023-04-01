@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">RadioCentral</h1>
+        <div class="radio-player">
+            <select id="radio-select" class="radio-select">
+                <option value="https://streams.bigfm.de/bigfm-deutschland-128-mp3">Big FM</option>
+                <option value="https://ais-edge01-live365-dal02.cdnstream.com/a95315">Radio Paradise</option>
+                <option value="https://uk2.internet-radio.com/proxy/bfradiobrasil?mp=/stream">BF Radio Brasil</option>
+            </select>
+            <button id="connect-button" class="connect-button">Connect</button>
+        </div>
+        <canvas id="visualizer" class="visualizer"></canvas>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
